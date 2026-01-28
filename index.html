@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Home</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Welcome to My Portfolio</h1>
-</body>
-</html>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">DevPortfolio</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="hero-title">Creative <span class="highlight">Developer</span> & Designer</h1>
+                <p class="hero-description">
+                    I build accessible, pixel-perfect, and performant web experiences.
+                    Specialized in responsive design and modern web technologies.
+                </p>
+                <div class="hero-buttons">
+                    <a href="projects.html" class="btn btn-primary">View Work</a>
+                    <a href="contact.html" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <!-- Placeholder for hero image or 3D element -->
+                    <img src="https://placehold.co/400x400/1E1E1E/6C63FF?text=Dev" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </header>
