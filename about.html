@@ -1,12 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - About</title>
     <link rel="stylesheet" href="css/styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>About Me</h1>
+    <!-- Navbar (Reused) -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">DevPortfolio</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About <span class="highlight">Me</span></h2>
+                <p class="subtitle">Get to know the person behind the code</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image-card">
+                    <div class="card-inner">
+                        <img src="https://placehold.co/400x500/1E1E1E/6C63FF?text=Me" alt="Profile Picture">
+                        <div class="experience-badge">
+                            <span class="badg-num">5+</span>
+                            <span class="badge-text">Years Exp.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text-box">
+                    <h3>My Journey</h3>
+                    <p>
+                        I started my journey in web development with a curiosity for how things work on the internet.
+                        Over the years, I've honed my skills in HTML, CSS, JavaScript, and modern frameworks.
+                    </p>
+                    <p>
+                        I believe in creating designs that are not just visually appealing but also functional and
+                        user-friendly.
+                        When I'm not coding, you can find me exploring new design trends or contributing to open source.
+                    </p>
+
+                    <div class="skills-grid">
+                        <div class="skill-item">HTML5 & CSS3</div>
+                        <div class="skill-item">JavaScript (ES6+)</div>
+                        <div class="skill-item">Responsive Design</div>
+                        <div class="skill-item">UI/UX Design</div>
+                    </div>
+
+                    <a href="contact.html" class="btn btn-primary">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
 </html>
